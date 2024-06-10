@@ -5,6 +5,8 @@ import com.example.ExpenseTracker.model.Expense;
 import com.example.ExpenseTracker.repository.ExpenseRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class ExpenseService {
 
@@ -20,7 +22,9 @@ public class ExpenseService {
 
     public void updateExpense(){}
 
-    public void getAllExpenses(){}
+    public List<Expense> getAllExpenses(){
+        return expenseRepository.findAll();
+    }
 
     public void getExpenseByName(){}
 
