@@ -1,4 +1,4 @@
-package com.example.springboot_mongodb.model;
+package com.example.ExpenseTracker.model;
 import com.example.ExpenseTracker.model.ExpenseCategory;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
